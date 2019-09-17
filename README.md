@@ -1,7 +1,15 @@
 # RAP ![](https://api.travis-ci.org/thx/RAP.svg)
 
+### RAP2已发布
+
+RAP2已正式发布，我们将逐步减少至停止对RAP项目的更新，请移步至RAP2获取最新的RAP版本，谢谢。 2017/11/21
+
+* [rap2-delos (rap2后端)](https://github.com/thx/rap2-delos)
+* [rap2-dolores (rap2前端)](https://github.com/thx/rap2-dolores)
+
 ### What is RAP?
-RAP can help WEB engineers manage API document efficiently by supplying a GUI edit tool, it can generate mock data, validate real request by analyzing API structure, make API doc as a strong dependency with the development workflow. With structured API data, RAP can do more while we can do less.
+
+RAP is a web tool that allows web applcation developers to rapidly define and document web APIs that are used in typical RESTful-API based web applications. RAP can also be used to generate API mock data and run API services to enable front-end developers in writing and testing their front-end code that makes consumpiont of the predefined web API loaded with mock data, hence reducing the dependency from the backend development work. Meanwhile, backend developers can implement their backend code according to the defintion of API on their own pace to meet the quality and timeline requirements. With RAP, you can really do more with less.
 
 RAP通过GUI工具帮助WEB工程师更高效的管理接口文档，同时通过分析接口结构自动生成Mock数据、校验真实接口的正确性，使接口文档成为开发流程中的强依赖。有了结构化的API数据，RAP可以做的更多，而我们可以避免更多重复劳动。
 
@@ -9,9 +17,9 @@ RAP通过GUI工具帮助WEB工程师更高效的管理接口文档，同时通�
 
 
 ### Why we use RAP?
-* Enterprise level application. More than 350+ corporations including Alibaba Group are using RAP to manage their important API Docs!
-* Fast and efficient technical support, continuously update. Go to issues list to find out how lively the community is!
-* Free and open source, all things are under control!
+* Enterprise-level application: 350+ corporations including Alibaba Group have adopted RAP to manage their important API Docs and development effort!
+* Fast and responsive technical support with continuous update. Go to issues list to find out how active the community is!
+* Free and open source: freedom is in your hand!
 
 ### 为什么我们信赖RAP？
 * 企业级应用，包括阿里集团在内得350多个企业都在使用RAP管理重要的接口文档。
@@ -19,7 +27,7 @@ RAP通过GUI工具帮助WEB工程师更高效的管理接口文档，同时通�
 * 免费、开源，一切尽在掌握中！
 
 ### 如何使用RAP
-1. 直接访问由作者维护的[rapapi.net](http://rapapi.net)
+1. 直接访问由作者维护的[rap.taobao.org](http://rap.taobao.org)
 2. 自己部署一个RAP服务器，参考最新Release部分
 
 ### 快速上手 quick guide
@@ -43,11 +51,11 @@ RAP通过GUI工具帮助WEB工程师更高效的管理接口文档，同时通�
 * 我想快速上手RAP使用方法 => [视频教程](http://thx.github.io/RAP/study.html)
 * 我要反馈问题 => [Issues](http://github.com/thx/RAP/issues)
 
-### Architect
-* Framework: Hibernate5 + Spring4 + Struts2
-* Store: MySQL5 + Redis3
-* Front End: Velocity + jQuery + qUnit
-* Deploy: Tomcat + Docker
+### Architecture
+* Frontend: Velocity + jQuery + qUnit
+* Backend: Hibernate5 + Spring4 + Struts2
+* Data Store: MySQL5 + Redis3
+* Deployment: Tomcat + Docker
 * CI: Travis
 
 ## 订阅RAP更新?
@@ -57,10 +65,10 @@ RAP通过GUI工具帮助WEB工程师更高效的管理接口文档，同时通�
  
 ## About
 
-    @version     v0.14.2
-    @author      @bosn @wangjeaf
+    @version     v0.14.3
+    @author      @nuysoft @zhangmeng712 @bosn @wangjeaf
     @director    @limu @xinglie
-    @update      Oct. 13th 2015
+    @update      Sep. 8th 2016
     @dependency  MockJS(@nuysoft)
     @license     GPL
 
